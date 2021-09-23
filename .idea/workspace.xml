@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f431590-8727-4cb3-a3c7-18f50d6fc7c0" name="Default Changelist" comment="" />
+    <list default="true" id="5f431590-8727-4cb3-a3c7-18f50d6fc7c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,21 +33,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringReactApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringReact" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springreact.springreact.SpringReactApplication" />
@@ -69,6 +60,7 @@
       <workItem from="1632314492944" duration="26000" />
       <workItem from="1632314675141" duration="10000" />
       <workItem from="1632315411643" duration="778000" />
+      <workItem from="1632398153134" duration="84000" />
     </task>
     <servers />
   </component>
