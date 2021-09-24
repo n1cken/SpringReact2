@@ -16,7 +16,7 @@ public class User {
     @Column ( name = "last_name")
     private String lastName;
 
-    //test
+    //test comment 10:40
     public User () {
 
     }

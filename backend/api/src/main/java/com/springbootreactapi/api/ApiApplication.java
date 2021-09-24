@@ -22,6 +22,7 @@ public class ApiApplication implements CommandLineRunner {
         this.userRepository.save(new User("Nichson", "Heaton", "nichsonheaton@aidw.com"));
         this.userRepository.save(new User("Hamoni", "Heaton", "nichsonheaton@aidw.com"));
         this.userRepository.save(new User("Synvilla", "Heaton", "nichsonheaton@aidw.com"));
+        this.userRepository.save(new User("Nosper", "Brightwind", "nosperbrightwind@warrior.com"));
 
     }
 }
