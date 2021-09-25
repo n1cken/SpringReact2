@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//@CrossOrigin(origins = "http://localhost:3023")
+//@CrossOrigin(origins = "http://localhost:3023") test comment
 @RestController
 @RequestMapping("api/")
 
