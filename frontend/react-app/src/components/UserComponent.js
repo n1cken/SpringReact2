@@ -12,7 +12,9 @@ class UserComponent extends React.Component{
        this.state = {
            users:[]
        }
+
    }
+
 
     /*Called immediately after mounted, calling setState here
     will trigger to re-render. */

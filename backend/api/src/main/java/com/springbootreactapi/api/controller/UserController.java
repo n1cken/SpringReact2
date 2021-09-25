@@ -3,14 +3,11 @@ package com.springbootreactapi.api.controller;
 import com.springbootreactapi.api.model.User;
 import com.springbootreactapi.api.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3001")
+//@CrossOrigin(origins = "http://localhost:3023")
 @RestController
 @RequestMapping("api/")
 
@@ -24,4 +21,10 @@ public class UserController {
         return this.userRepository.findAll();
     }
 
+    @PostMapping("users")
+    public String addUser(@RequestBody User user) {
+        User userToSave = new User(user.getFirstName(), user.getLastName(), user.getEmail());
+        userRepository.save(userToSave);
+        return "redirect:/api/users";
+    }
 }
