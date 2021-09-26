@@ -25,6 +25,6 @@ public class UserController {
     public String addUser(@RequestBody User user) {
         User userToSave = new User(user.getFirstName(), user.getLastName(), user.getEmail());
         userRepository.save(userToSave);
-        return "redirect:/api/users";
+        return "redirect:";
     }
 }
